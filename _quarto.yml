@@ -43,14 +43,14 @@ website:
       - text: Summit
         contents:
           - href: pages/summit.qmd
-            text: Summit Overview
+            text: Overview
           - href: pages/schedule.qmd
             text: Schedule
 
 format:
   html:
     theme: 
-    #  light: [cosmo, styles/styles.scss]
+      light: [cosmo, styles/styles2.scss]
       dark: [cosmo, styles/styles2.scss, styles/theme-dark.scss]
     mainfont: "Georgia"
     callout-appearance: simple
