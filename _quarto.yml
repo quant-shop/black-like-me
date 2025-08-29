@@ -44,7 +44,7 @@ website:
         text: Goals
       - href: pages/team.qmd
         text: Team
-      - href: practice.qmd
+      - href: pages/practice.qmd
         text: Resources
       
 
