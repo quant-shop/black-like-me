@@ -44,10 +44,8 @@ website:
       text: Team
     - href: pages/partners.qmd
       text: Resources
-    - section: "2027 In-Person Summit"
-      contents:
-        - href: pages/summit27.qmd
-          text: Overview
+    - href: pages/summit27.qmd
+      text: "2027 Summit"
 
       
 

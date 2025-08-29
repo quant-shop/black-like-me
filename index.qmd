@@ -4,9 +4,33 @@ title: "BLACK LIKE ME"
 
 Despite growing attention to global exchanges in teacher training, few studies focus on teachers’ understanding of cultural differences, diaspora, and the role of HBCUs in advancing diaspora literacy. This project explores how international engagements shape educators’ awareness of the African diaspora and informs our practice.
 
-![](img/diaspora.jpg)
+### Explore
 
-## Project Description
+Use your cursor to navigate the map and explore a country you'd like to visit or one you have visited before. What are some of the experiences you imagine you will have? What are you looking forward to?
 
-Diasporic awareness involves understanding shared histories and cultural practices resulting from migration (Boutte, Johnson, & Muki, 2019; Zeleza, 2009). This study draws on frameworks from diaspora and Black internationalism studies, emphasizing the role of HBCUs in diaspora literacy and educator preparation. Using a mixed-methods longitudinal design, the project combines international surveys and cohort narratives studying how educators’ diasporic awareness shapes professional visions and practices. Findings will support new survey tools, educational modules, research in teacher internationalization, and an open-source project advancing diaspora literacy and global competence in education.
+```{r, echo=F, message=F, warning=F}
+library(leaflet)
+library(spData)
+library(sf)
+
+data(world, package = "spData")
+
+africa <- world[world$continent == "Africa", ]
+
+africa <- st_transform(africa, 4326)
+
+leaflet(data = africa) %>%
+  addTiles() %>%
+  setView(lng = 20, lat = 0, zoom = 2.5) %>%
+  addPolygons(
+    weight = 1,
+    color = "#eee",
+    fillOpacity = 0.5,
+    popup = ~name_long
+  )
+```
+
+### Project Description
+
+Diasporic awareness involves understanding shared histories and cultural practices (Boutte, Johnson, & Muki, 2019; Zeleza, 2009). This project draws on frameworks from Black and African diaspora studies, and emphasizes the role of HBCUs in diaspora literacy and educator preparation. Using a design thinking framework, this project centers collaboarative and international dialogues to expand conversations on how educators’ diasporic awareness shapes critical professional visions and collective practices. This project supports tools, modules, and open-source and collaborative spaces to advance diaspora literacy and global competence in teacher education.
 

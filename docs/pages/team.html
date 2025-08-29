@@ -70,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <meta property="og:title" content="Project Team – Black Like Me">
 <meta property="og:description" content="Black Like Me">
@@ -196,6 +225,7 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#advisory-board" id="toc-advisory-board" class="nav-link active" data-scroll-target="#advisory-board">Advisory Board</a></li>
+  <li><a href="#student-advisory-board-2025---2026" id="toc-student-advisory-board-2025---2026" class="nav-link" data-scroll-target="#student-advisory-board-2025---2026">Student Advisory Board (2025 - 2026)</a></li>
   </ul>
 </nav>
     </div>
@@ -221,18 +251,30 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>The “Black Like Me” project team is co-led by faculty members in the Department of Curriculum and Instruction at Howard University. Dr.&nbsp;Katherine Norris, Professor and Chair of the Department of Curriculum and Instruction, leads the annual international study tour and qualitative research components of the project. Dr.&nbsp;Nathan Alexander, Assistant Professor and instructor for EDUC 480: International Internship and Special Topics Seminar, leads the curricular and quantitative research components of the project. The department faculty co-lead the annual summit.</p>
+<p>The “Black Like Me” project team is co-led effort by faculty members in the Department of Curriculum and Instruction at Howard University. You can view the faculty <a href="https://education.howard.edu/academics/department-curriculum-instruction/faculty-profiles" target="_blank">here</a>.</p>
+<p>Dr.&nbsp;Katherine Norris, Professor and Chair of the Department of Curriculum and Instruction, co-leads the annual international study tour and the qualitative research components of the project.</p>
+<p>Dr.&nbsp;Nathan Alexander, Assistant Professor and instructor of the EDUC 480: International Internship and Special Topics seminar, leads the curricular and quantitative research components of the project.</p>
 <section id="advisory-board" class="level1">
 <h1>Advisory Board</h1>
-<p>Dr.&nbsp;Helen Bond, Professor at Howard University, chairs the advisory board with her extensive expertise in international development and educator research.</p>
 <ul>
-<li>Dr.&nbsp;Krista Johnson, Director of the Center for African Studies<br>
-</li>
+<li>Dr.&nbsp;Helen Bond, Department of Curriculum and Instruction (Chair)</li>
+<li>Dr.&nbsp;Gregory Carr, Department of Afro-American Studies</li>
+<li>Dr.&nbsp;Krista Johnson, Director of the Center for African Studies</li>
 <li>Dr.&nbsp;Tonija Hope, Director of the Ralph J. Bunche Center for International Affairs<br>
 </li>
 <li>Dr.&nbsp;Malik Henfield, Director of the Institute for Racial Justice<br>
 </li>
 <li>Dr.&nbsp;Tadios Belay, Director of the U.S. Africa Institute</li>
+</ul>
+</section>
+<section id="student-advisory-board-2025---2026" class="level1">
+<h1>Student Advisory Board (2025 - 2026)</h1>
+<ul>
+<li>Jada Carter, Department of Curriculum and Instruction (Chair - SOE Student Council representative)</li>
+<li>Isaiah Issac, Department of Curriculum and Instruction (CBT<span class="math inline">\(^2\)</span> representative)</li>
+<li>Judith Bennet, Department of Curriculum and Instruction (Ms.&nbsp;SOE representative)</li>
+<li>Kentin LASTNAME, Department of Curriculum and Instruction (Mr.&nbsp;SOE representative)</li>
+<li>FirstName LastName, Department of Curriculum and Instruction (Kappa Delta Pi representative)</li>
 </ul>
 
 
