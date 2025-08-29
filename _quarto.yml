@@ -30,9 +30,9 @@ website:
     contents: 
     - href: index.qmd
       text: Home
-    - section: "2026 Summit"
+    - section: "2026 Virtual Summit"
       contents:
-        - href: pages/summit.qmd
+        - href: pages/summit26.qmd
           text: Overview
         - href: pages/submissions.qmd
           text: Call for Proposals
@@ -46,6 +46,10 @@ website:
       text: Team
     - href: pages/practice.qmd
       text: Resources
+    - section: "2027 In-Person Summit"
+      contents:
+        - href: pages/summit27.qmd
+          text: Overview
 
       
 
