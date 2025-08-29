@@ -6,7 +6,7 @@ Despite growing attention to global exchanges in teacher training, few studies f
 
 ### Explore
 
-Use your cursor to navigate the map and explore a country you'd like to visit or one you have visited before. What are some of the experiences you imagine you will have? What are you looking forward to?
+Use your cursor to navigate the map and explore a country in the African diaspora that you'd like to visit or one you have visited before. What are some experiences you imagine you will have? What are you looking forward to?
 
 ```{r, echo=F, message=F, warning=F}
 library(leaflet)
