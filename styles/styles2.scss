@@ -1,33 +1,62 @@
 /*-- scss:defaults --*/
 
+// Dark mode base colors
 $body-bg: #121212 !default;
 $body-color: #e0e0e0 !default;
-
 $primary: #f4a261 !default; /* Pan-African gold accent */
 $secondary: #2a9d8f !default; /* Teal accent */
 
-/* Headings and links */
+// Font settings
+$font-family-base: "Georgia", sans-serif !default;
+$font-size-base: 15px !default;
+
+/*-- scss:rules --*/
+
+// Apply dark background, font color and font styling
+body {
+  background-color: $body-bg;
+  color: $body-color;
+  font-family: $font-family-base;
+  font-size: $font-size-base;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+// Headers with primary color
 h1, h2, h3, h4, h5, h6 {
-  color: #f4a261 !default;
+  color: $primary;
 }
 
+// Links
 a, a:visited {
-  color: $primary !default;
+  color: $primary;
 }
+
 a:hover {
-  color: lighten($primary, 20%) !default;
+  color: lighten($primary, 20%);
 }
 
-/* Sidebar */
+// Sidebar styling
 .sidebar {
-  background-color: #222 !default;
-  color: #eee !default;
+  background-color: #222;
+  color: #eee;
 }
 
-/* Buttons */
+.sidebar a {
+  color: $primary;
+}
+
+.sidebar a:hover {
+  color: $secondary;
+}
+
+// Buttons
 .btn-primary {
-  background-color: $primary !default;
-  border-color: darken($primary, 10%) !default;
+  background-color: $primary;
+  border-color: darken($primary, 10%);
+  cursor: pointer;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 
   &:hover {
     background-color: lighten($primary, 10%);

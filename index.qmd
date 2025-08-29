@@ -2,25 +2,23 @@
 title: "Black Like Me"
 ---
 
-# Problem Statement and Project Significance
-
 Despite growing attention to global exchanges in teacher training, few studies focus on teachers’ understanding of cultural differences, diaspora, and the role of HBCUs in advancing diaspora literacy. This study explores how international engagements shape elementary educators’ awareness of the African diaspora and affect their teaching practice.
 
-# Research Questions
+## Research Questions
 
 1. How do global studies in educator preparation relate to teachers’ diasporic awareness and perceptions of practices centering African diaspora histories and cultures?
 2. Are there distinct profiles in educators’ knowledge and beliefs about the African diaspora based on identity and background?
 3. How do HBCU pre-service teachers’ narratives about professional identity evolve with diasporic engagement?
 
-# Theoretical and Conceptual Frameworks
+## Theoretical and Conceptual Frameworks
 
 Diasporic awareness involves understanding shared histories and cultural practices resulting from migration (Boutte, Johnson, & Muki, 2019; Zeleza, 2009). This study draws on frameworks from diaspora and Black internationalism studies, emphasizing the role of HBCUs in diaspora literacy and educator preparation.
 
-# Summary of Research Design
+## Summary of Research Design
 
 Using a mixed-methods longitudinal design, the project combines international surveys and cohort narratives studying how educators’ diasporic awareness shapes professional visions and practices.
 
-# How the Field Will Be Different
+## How the Field Will Be Different
 
 Findings will support new survey tools, educational modules, research in teacher internationalization, and an open-source project advancing diaspora literacy and global competence in education.
 

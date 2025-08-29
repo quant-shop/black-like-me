@@ -1,8 +1,6 @@
 ---
-title: Goals
+title: Project Goals and Objectives
 ---
-
-# Project Goals
 
 - To develop validated survey instruments measuring educators’ knowledge and awareness of the African diaspora in educational contexts.
 

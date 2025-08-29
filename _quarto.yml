@@ -11,10 +11,10 @@ website:
   page-footer:
     right: "This page was built by Nathan Alexander, PhD in [Quarto](https://quarto.org/)"
     left: "&copy; Copyright 2025, The Black Like Me Project"
-    background: "#12853F"
+    background: "#eee"
 
   sidebar:
-    background: "#12853F"
+    background: "#eee" 
     logo: "img/diaspora.jpg"
     pinned: true
     align: center
@@ -42,7 +42,7 @@ website:
         text: Practice
       - text: Summit
         contents:
-          - href: pages/conference.qmd
+          - href: pages/summit.qmd
             text: Summit Overview
           - href: pages/schedule.qmd
             text: Schedule
@@ -50,9 +50,9 @@ website:
 format:
   html:
     theme: 
-      light: [cosmo, styles/styles.scss]
+    #  light: [cosmo, styles/styles.scss]
       dark: [cosmo, styles/styles2.scss, styles/theme-dark.scss]
-    mainfont: "Atkinson Hyperlegible"
+    mainfont: "Georgia"
     callout-appearance: simple
     colorlinks: true
     code-copy: true
