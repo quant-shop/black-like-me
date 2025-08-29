@@ -44,7 +44,7 @@ website:
       text: Goals
     - href: pages/team.qmd
       text: Team
-    - href: pages/practice.qmd
+    - href: pages/partners.qmd
       text: Resources
     - section: "2027 In-Person Summit"
       contents:
