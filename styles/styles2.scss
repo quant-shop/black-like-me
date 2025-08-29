@@ -1,0 +1,36 @@
+/*-- scss:defaults --*/
+
+$body-bg: #121212 !default;
+$body-color: #e0e0e0 !default;
+
+$primary: #f4a261 !default; /* Pan-African gold accent */
+$secondary: #2a9d8f !default; /* Teal accent */
+
+/* Headings and links */
+h1, h2, h3, h4, h5, h6 {
+  color: #f4a261 !default;
+}
+
+a, a:visited {
+  color: $primary !default;
+}
+a:hover {
+  color: lighten($primary, 20%) !default;
+}
+
+/* Sidebar */
+.sidebar {
+  background-color: #222 !default;
+  color: #eee !default;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: $primary !default;
+  border-color: darken($primary, 10%) !default;
+
+  &:hover {
+    background-color: lighten($primary, 10%);
+    border-color: lighten($primary, 20%);
+  }
+}

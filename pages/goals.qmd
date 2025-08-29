@@ -1,0 +1,27 @@
+---
+title: Goals
+---
+
+# Project Goals
+
+- To develop validated survey instruments measuring educators’ knowledge and awareness of the African diaspora in educational contexts.
+
+- To design and disseminate digital educational modules that enhance diaspora literacy and global competence for elementary teacher preparation programs.
+
+- To conduct longitudinal narrative research that tracks changes in HBCU pre-service teachers’ diasporic awareness and professional identities.
+
+- To examine patterns and profiles of educators’ beliefs about classroom practices centering the histories and cultural realities of the African diaspora.
+
+- To foster a collaborative, open-source platform that supports educators, researchers, and practitioners in advancing diaspora literacy and culturally responsive pedagogy.
+
+# Objectives
+
+- To recruit diverse cohorts of pre-service and in-service educators for multi-year survey and narrative data collection.
+
+- To utilize mixture modeling and thematic analyses to identify distinct educator profiles and evolving narratives related to diasporic knowledge and practice.
+
+- To engage partner institutions, especially HBCUs, in collaborative research-practice partnerships that promote diaspora-informed teacher education.
+
+- To publish research findings and resources that inform policy, practice, and future research on diaspora literacy in education.
+
+

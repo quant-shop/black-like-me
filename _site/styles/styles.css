@@ -1,0 +1,92 @@
+:root {
+  --pan-red: #E31B23;
+  --pan-black: #121212;
+  --pan-green: #12853F;
+  --pan-gold: #F8B735;
+  --sidebar-bg: #F8F9FA; /* very light gray */
+  --sidebar-border: #E7E7E7;
+}
+
+/* General background and type */
+body {
+  font-family: 'Segoe UI', Verdana, sans-serif;
+  background: #fff;
+  color: var(--pan-black);
+}
+
+/* Sidebar styles for seamless blending */
+.sidebar {
+  background-color: var(--sidebar-bg);
+  border-right: 2px solid var(--sidebar-border);
+  color: var(--pan-black);
+  box-shadow: none;
+}
+
+/* Navigation links using accent colors */
+.sidebar-item-text.sidebar-link.text-start {
+  color: var(--pan-red);
+  font-weight: 500;
+}
+
+.sidebar-item.active .sidebar-item-text {
+  color: var(--pan-green);
+}
+
+.sidebar-item {
+  border-radius: 4px;
+  margin-bottom: 0.4em;
+  transition: background 0.15s;
+}
+
+.sidebar-item:hover, .sidebar-item.active {
+  background: var(--pan-gold, #F8B735);
+}
+
+a, .sidebar a {
+  color: var(--pan-red);
+}
+a:hover, .sidebar a:hover {
+  color: var(--pan-green);
+}
+
+/* Title and logo area */
+#site-title {
+  color: var(--pan-black);
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.1em;
+  margin-left: 0.2em;
+}
+
+.site-logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0.5em 0 1.2em 0.2em;
+}
+.site-logo-container img {
+  width: 90px;
+  border-radius: 6px;
+  margin-top: 0.5em;
+  border: 2px solid var(--pan-red);
+  background: #fff;
+}
+
+/* Headings with Pan-African accents, but not overpowering */
+h1 {
+  color: var(--pan-red);
+}
+h2, h3 {
+  color: var(--pan-green);
+}
+
+/* (Optional) Button or other accent styles */
+button, .btn {
+  background: var(--pan-green);
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+button:hover, .btn:hover {
+  background: var(--pan-red);
+}

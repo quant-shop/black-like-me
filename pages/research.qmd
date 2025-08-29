@@ -1,0 +1,24 @@
+---
+title: Research
+---
+
+# Research Design and Methodology
+
+This project employs a longitudinal mixed-methods design integrating quantitative and qualitative approaches to explore how international engagements shape educators’ diasporic awareness and perceptions of practice.
+
+## Survey Study
+
+A large-scale international survey will be conducted annually, using validated Likert-scale measures and scenario-based questions to assess educators’ self-reported knowledge, beliefs, and competencies related to the African diaspora and teaching practice.
+
+## Cohort Narrative Study
+
+The cohort study involves longitudinal narrative analyses with multiple cohorts of HBCU pre-service teachers. Data collection methods include semi-structured interviews, reflective journals, and participant observations to track shifts in diasporic awareness and professional identity.
+
+## Analytical Approaches
+
+Quantitative analysis will use latent class analysis (LCA) and mixture modeling to identify distinct educator profiles based on survey responses. Qualitative thematic analysis will trace changes in narratives over time, focusing on how diasporic knowledge informs educators’ perceptions and pedagogies.
+
+## Theoretical Frameworks
+
+Grounded in diasporic awareness and Black internationalism scholarship, this project centers researchers’ positionality and accountability to Black educational communities, employing culturally responsive and community-engaged research methods.
+

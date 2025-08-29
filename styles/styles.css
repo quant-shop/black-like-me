@@ -1,0 +1,67 @@
+/*-- scss:defaults --*/
+
+// Define variables properly using !default only in declarations
+$primary: #E31B23 !default;      // Pan-African red
+$secondary: #12853F !default;    // Pan-African green
+$accent: #F8B735 !default;       // Pan-African gold
+
+$body-bg: #fff !default;
+$body-color: #333 !default;
+
+/*-- base styles --*/
+
+body {
+  background-color: $body-bg;
+  color: $body-color;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+a, a:visited {
+  color: $primary;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darken($primary, 15%);
+  text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primary;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.sidebar {
+  background-color: lighten($secondary, 25%);
+  color: darken($body-color, 30%);
+  padding: 1em;
+  min-width: 200px;
+}
+
+.sidebar a {
+  color: $primary;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  color: $accent;
+  text-decoration: underline;
+}
+
+button, .btn {
+  background-color: $secondary;
+  color: white;
+  border: none;
+  padding: 0.5em 1em;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: darken($secondary, 15%);
+}

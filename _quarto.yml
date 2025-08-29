@@ -1,0 +1,60 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  page-navigation: true
+  title: "Black Like Me"
+  description: "Black Like Me"
+  site-url: "https://github.com/quant-shop/black-like-me"
+  open-graph: true
+  page-footer:
+    right: "This page was built by Nathan Alexander, PhD in [Quarto](https://quarto.org/)"
+    left: "&copy; Copyright 2025, The Black Like Me Project"
+    background: "#12853F"
+
+  sidebar:
+    background: "#12853F"
+    logo: "img/diaspora.jpg"
+    pinned: true
+    align: center
+    tools: 
+      - icon: github
+        href: https://github.com/quant-shop/black-like-me
+        text: "GitHub organization"
+      - icon: code-square
+        href: https://canvasforteachers.com/59441
+        text: "Canvas site"
+    search: true
+    collapse-level: 1
+    contents:
+      - href: index.qmd
+        text: Home
+      - href: pages/goals.qmd
+        text: Goals
+      - href: pages/background.qmd
+        text: Background
+      - href: pages/team.qmd
+        text: Team
+      - href: pages/research.qmd
+        text: Research
+      - href: pages/practice.qmd
+        text: Practice
+      - text: Summit
+        contents:
+          - href: pages/conference.qmd
+            text: Summit Overview
+          - href: pages/schedule.qmd
+            text: Schedule
+
+format:
+  html:
+    theme: 
+      light: [cosmo, styles/styles.css]
+      dark: [cosmo, styles/styles2.scss, styles/theme-dark.scss]
+    mainfont: "Atkinson Hyperlegible"
+    callout-appearance: simple
+    colorlinks: true
+    code-copy: true
+    code-overflow: wrap
+    toc: true

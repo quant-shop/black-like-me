@@ -1,0 +1,41 @@
+/*-- scss:defaults --*/
+
+$body-bg: #181818 !default;
+$body-color: #eee !default;
+
+$primary: #e76f51 !default; /* Warm coral accent */
+$secondary: #264653 !default; /* Dark slate blue */
+
+/* Override default cosmo variables as needed */
+
+h1, h2, h3, h4, h5, h6 {
+  color: $primary !default;
+}
+
+a, a:visited {
+  color: $primary !default;
+}
+a:hover {
+  color: lighten($primary, 15%) !default;
+}
+
+/* Sidebar adjustments */
+.sidebar {
+  background-color: #222 !default;
+  color: #ccc !default;
+}
+
+/* Nav link hover */
+.sidebar a:hover {
+  color: $secondary !default;
+}
+
+/* Buttons */
+.btn-primary {
+  background-color: $primary !default;
+  border-color: darken($primary, 15%) !default;
+
+  &:hover {
+    background-color: lighten($primary, 10%);
+  }
+}
