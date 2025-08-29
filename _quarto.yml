@@ -44,6 +44,8 @@ website:
         contents:
           - href: pages/summit.qmd
             text: Overview
+          - href: pages/submissions.qmd
+            text: Call for Proposals
           - href: pages/schedule.qmd
             text: Schedule
 
