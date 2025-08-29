@@ -30,17 +30,7 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - href: pages/goals.qmd
-        text: Goals
-      - href: pages/background.qmd
-        text: Background
-      - href: pages/team.qmd
-        text: Team
-      - href: pages/research.qmd
-        text: Research
-      - href: pages/practice.qmd
-        text: Practice
-      - text: Summit
+      - text: 2026 Summit
         contents:
           - href: pages/summit.qmd
             text: Overview
@@ -48,11 +38,20 @@ website:
             text: Call for Proposals
           - href: pages/schedule.qmd
             text: Schedule
+      - href: pages/background.qmd
+        text: Background
+      - href: pages/goals.qmd
+        text: Goals
+      - href: pages/team.qmd
+        text: Team
+      - href: practice.qmd
+        text: Resources
+      
 
 format:
   html:
     theme: 
-      light: [cosmo, styles/styles2.scss]
+      #light: [cosmo, styles/styles2.scss]
       dark: [cosmo, styles/styles2.scss, styles/theme-dark.scss]
     mainfont: "Georgia"
     callout-appearance: simple
