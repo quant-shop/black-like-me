@@ -30,15 +30,4 @@ Over three dynamic days, the summit features:
 - Networking opportunities with international collaborators  
 - Cultural events celebrating African and diaspora heritage  
 
-# Summit Schedule
-
-| Time               | Day 1 (Half Day)                   | Day 2 (Full Day)                             | Day 3 (Half Day)                              |
-|----------|--------------------------|-------------------------|-----------------------------|
-| 8:00 - 9:00 AM  |                                  | Breakfast and Morning Networking              | Breakfast                                     |
-| 9:00 AM - 12:00 PM |                                  | Concurrent Workshops and Seminars (Session 1)| Summit Planning Session: Future Directions    |
-| 12:00 - 1:00 PM |                                  | Lunch                                         |                                               |
-| 1:00 - 3:00 PM  | Guided Campus Tour               | Concurrent Workshops and Seminars (Session 2)| School Visits and Closing Remarks              |
-| 3:00 - 4:30 PM  | Opening Keynote Address          |                                              |                                               |
-| 4:30 - 6:00 PM  | Welcome Reception and Networking | Cultural Outing / Group Activity              |                                               |                                         |
-
 

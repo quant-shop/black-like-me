@@ -36,8 +36,6 @@ website:
           text: Overview
         - href: pages/submissions.qmd
           text: Call for Proposals
-        - href: pages/schedule.qmd
-          text: Schedule
     - href: pages/background.qmd
       text: Background
     - href: pages/goals.qmd
