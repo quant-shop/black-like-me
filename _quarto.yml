@@ -50,7 +50,7 @@ website:
 format:
   html:
     theme: 
-      light: [cosmo, styles/styles.css]
+      light: [cosmo, styles/styles.scss]
       dark: [cosmo, styles/styles2.scss, styles/theme-dark.scss]
     mainfont: "Atkinson Hyperlegible"
     callout-appearance: simple

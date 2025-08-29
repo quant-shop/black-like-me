@@ -1,6 +1,4 @@
-/*-- scss:defaults --*/
-
-// Define variables properly using !default only in declarations
+/* Variable declarations (only lines with !default allowed here) */
 $primary: #E31B23 !default;      // Pan-African red
 $secondary: #12853F !default;    // Pan-African green
 $accent: #F8B735 !default;       // Pan-African gold
@@ -8,12 +6,11 @@ $accent: #F8B735 !default;       // Pan-African gold
 $body-bg: #fff !default;
 $body-color: #333 !default;
 
-/*-- base styles --*/
-
+/* Body and typography */
 body {
   background-color: $body-bg;
   color: $body-color;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
   margin: 0;
   padding: 0;
