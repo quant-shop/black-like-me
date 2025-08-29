@@ -27,25 +27,26 @@ website:
         text: "Canvas site"
     search: true
     collapse-level: 1
-    contents:
-      - href: index.qmd
-        text: Home
-      - text: 2026 Summit
-        contents:
-          - href: pages/summit.qmd
-            text: Overview
-          - href: pages/submissions.qmd
-            text: Call for Proposals
-          - href: pages/schedule.qmd
-            text: Schedule
-      - href: pages/background.qmd
-        text: Background
-      - href: pages/goals.qmd
-        text: Goals
-      - href: pages/team.qmd
-        text: Team
-      - href: pages/practice.qmd
-        text: Resources
+    contents: 
+    - href: index.qmd
+      text: Home
+    - section: "2026 Summit"
+      contents:
+        - href: pages/summit.qmd
+          text: Overview
+        - href: pages/submissions.qmd
+          text: Call for Proposals
+        - href: pages/schedule.qmd
+          text: Schedule
+    - href: pages/background.qmd
+      text: Background
+    - href: pages/goals.qmd
+      text: Goals
+    - href: pages/team.qmd
+      text: Team
+    - href: pages/practice.qmd
+      text: Resources
+
       
 
 format:
